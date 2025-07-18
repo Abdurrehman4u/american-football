@@ -33,7 +33,7 @@ def annotate_video(input_path: Path, output_path: Path, model_path: Path):
             if not ret:
                 break
 
-            results = model(frame, verbose=False)[0]
+            results = model(frame, verbose=False,conf=0.6)[0]
 
             annotator = Annotator(
                 frame,
