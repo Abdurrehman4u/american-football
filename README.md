@@ -90,15 +90,13 @@ american-football/
 ### Common Issues
 
 1. **Video not opening**: Check if the video format is supported and file path is correct
-2. **Model not found**: Ensure `best.pt` is in the project directory or provide correct model path
+2. **Model not found**: Ensure `american_v2.pt` is in the project directory or provide correct model path
 3. **Slow processing**: Consider reducing video resolution or using GPU acceleration
 
 ### Supported Video Formats
 
 - MP4 (recommended)
 - AVI
-- MOV
-- MKV
 
 ## License
 
