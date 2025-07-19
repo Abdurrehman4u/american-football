@@ -7,3 +7,6 @@ Pillow
 matplotlib
 numpy
 lap
+scikit-learn
+shapely
+scipy
